@@ -8,6 +8,15 @@
     border-radius: 3px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opicity 0.15s;
+}
+
+.btn-sub:hover {
+    opacity: 0.8;
+}
+
+.btn-sub:active {
+    opacity: 0.5;
 }
 
 .btn-join {
@@ -22,6 +31,17 @@
     border-radius: 3px;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s,
+        color 0.15s;
+}
+
+.btn-join:hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn-join:active {
+    opacity: 0.7;
 }
 
 .btn-tweet {
@@ -35,6 +55,11 @@
     border-radius: 25px;
     cursor: pointer;
     margin-right: 8px;
+    transition: box-shadow 0,15s;
+}
+
+.btn-tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .btn-request {
@@ -45,6 +70,11 @@
     border: none;
     margin-right: 8px;  
     cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.btn-request:hover {
+    opacity: 0.8;
 }
 
 .btn-bye {
@@ -59,6 +89,14 @@
     cursor: pointer;
 }
 
+.btn-bye:hover {
+    background-color: rgb(197, 128, 24);
+}
+
+.btn-bye:active {
+    opacity: 0.5;
+}
+
 .btn-add-to-cart {
     height: 50px;
     width: 150px;
@@ -71,6 +109,15 @@
     cursor: pointer;
 }
 
+.btn-add-to-cart:hover {
+    background-color: rgb(245, 200, 0);
+}
+
+.btn-add-to-cart:active {
+    opacity: 0.5;
+}
+
+
 .btn-sign-up {
     height: 50px;
     background-color: rgba(42, 250, 0, 0.753);
@@ -81,6 +128,11 @@
     padding: 15px;
     margin-right: 8px;   
     cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.btn-sign-up:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.116);
 }
 
 .btn-get-started {
@@ -92,6 +144,11 @@
     padding: 10px;
     margin-right: 8px;   
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.btn-get-started:hover {
+    background-color: rgb(75, 15, 124);
 }
 
 .btn-download {
@@ -104,6 +161,14 @@
     border-width: 1px;
     padding: 15px;
     margin-right: 8px;   
+    cursor: pointer;
+    transition: background-color 0.15s,
+        color 0.15s;
+}
+
+.btn-download:hover {
+    background-color: gray;
+    color: white;
 }
 
 .btn-apply {
@@ -116,6 +181,13 @@
     font-weight: bold;
     padding: 15px;
     margin-right: 8px;   
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.btn-apply:hover {
+    background-color:  rgb(34, 60, 148);
+
 }
 
 .btn-save {
@@ -123,7 +195,7 @@
     width: 90px;
     background-color:white;
     color: rgb(62, 104, 241);
-    border-color: rgb(62, 104, 241);;
+    border-color: rgb(62, 104, 241);
     border-style: solid;
     border-radius: 25px;
     font-size: 15px;
@@ -131,6 +203,14 @@
     font-weight: bold;
     padding: 15px;
     margin-right: 8px;   
+    cursor: pointer;
+    transition: background-color 0.15s,
+        border-width 0,15s;
+}
+
+.btn-save:hover{
+    border-width: 2px;
+    background-color: rgb(156, 178, 250);
 }
 
 .price {
