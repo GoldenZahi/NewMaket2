@@ -217,3 +217,19 @@
     color: rgb(0, 118, 0);
     font-weight: bold;
 }
+
+.fiveblock-connet {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 300px;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 4px;
+}
