@@ -42,10 +42,92 @@ p {
     padding-bottom: 20px;
 }
 
+h1 {
+    text-align: center;
+    width: 90%;
+}
+
 .shop-link {
     cursor: pointer;
 }
 
 .shop-link:hover {
+    text-decoration: underline  ;
+}
+
+.text-one {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-block-two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.text-two {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.text-two-dop-one {
+    color: gray;
+    padding: 10px 0;
+}
+
+.text-two-dop-two {
+    padding: 10px 0;
+}
+
+.btn-get-started {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-block-three {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+em {
+    color: rgb(255, 57, 57);
+}
+
+.text-block-fwo {
+    width: 90%;
+    text-align: center;
+    font-family: Arial;
+}
+
+.text-fwo-one {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.text-fwo-two {
+    padding-bottom: 10px;
+}
+
+.text-fwo-three{
+    color: lightblue;
     text-decoration: underline;
+}
+
+.text-five {
+
+}
+
+.text-six {
+
+}
+
+.text-seven {
+
 }
