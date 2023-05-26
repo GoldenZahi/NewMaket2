@@ -1,0 +1,42 @@
+.signup {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.signup input {
+    margin-bottom: 2px;
+}
+
+.quetions {
+    display: flex;
+    flex: 3;
+    width: 280px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.text {
+    flex: 2;
+}
+
+.google-search {
+    width: 450px;
+    height: 150px;
+}
+
+.google-photo {
+    width: 450px;
+    height: 90px;
+    object-fit: cover;
+
+    display: block;
+}
+
+.search {
+    width: 450px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.082);
+}
