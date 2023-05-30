@@ -1,3 +1,11 @@
+.box-figure, .text-box {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
 .red-block {
     width: 100px;
     height: 100px;
@@ -68,7 +76,13 @@
 .mutuals-friends {
     margin-left: 5px;
     font-size: 10px;
+    display: flex;
     color: gray;
+}
+
+.mutual-frend {
+    display: flex;
+    align-items: center;
 }
 
 .add-friend {
@@ -106,4 +120,14 @@
 .btn-one {
     margin-left: 100px;
     margin-top: 40px;
+}
+
+.mutual-frend-photo {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-top: 10px;
 }
