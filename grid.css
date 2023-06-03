@@ -1,0 +1,16 @@
+.cetka {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.bgc {
+    background-color: rgb(241, 122, 122);
+    height: 200px;
+}
+
+.bgc-bl {
+    background-color: rgb(98, 98, 230);
+    height: 200px;
+}
