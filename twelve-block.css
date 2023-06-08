@@ -1,0 +1,148 @@
+.one-block, .two-block {
+    display: flex;
+    margin-top: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.a {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.b {
+    background-color: lightpink;
+    width: 75px;
+}
+
+.c {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.d {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.three-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.e {
+    background-color: lightpink;
+}
+
+.fwo-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: 1px solid rgb(240, 166, 177);
+}
+
+.five-block {
+    margin-top: 30px;
+    height: 120px;
+    width: 250px;
+    border: 1px solid lightgray;
+}
+
+.massage {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.text {
+    font-weight: 600;
+}
+
+.number {
+    background-color: rgb(3, 145, 192);
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.six-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    height: 40px;
+    padding: 10px;
+}
+
+.left-section {
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    border: none;
+    border-radius: 25px;
+    width: 800px;
+    padding: 5px;
+}
+
+.six-block button {
+    background-color: purple;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+}
+
+.seven-block {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 100px;
+    border: 1px solid lightgray;
+}
+
+.avatar {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.opisanie {
+    display: flex;
+    flex-direction: column;
+    transform: translate(-70px);
+}
+
+.name {
+    font-weight: bold;
+}
+
+.aaa {
+    color: gray;
+}
+
+.follow button {
+    padding: 20px;
+    background-color: rgb(81, 81, 252);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
